@@ -21,14 +21,14 @@ Demo: http://localhost:3000 (after setup)
 ```
 cd dynamic-pricing-app/backend
 pip install -r requirements.txt
-uvicorn main:app --reload
+python main.py
 ```
 
 **Frontend:**
 
 ```
 cd dynamic-pricing-app/frontend
-npm i
+npm install
 npm start
 ```
 
