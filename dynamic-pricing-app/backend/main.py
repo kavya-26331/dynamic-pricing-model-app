@@ -9,7 +9,7 @@ app = FastAPI(title="Dynamic Pricing API")
 # ✅ CORS for React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://cerulean-monstera-03d209.netlify.app","http://localhost:3000"],
+    allow_origins=["https://dynamic-pricing-model.netlify.app","http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
