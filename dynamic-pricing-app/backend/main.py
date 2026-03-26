@@ -47,8 +47,6 @@ def predict_price(input_data: PricingInput):
         # ✅ Convert input
         input_dict = input_data.model_dump()
 
-        input_dict = input_data.model_dump()
-
         # ONLY use model features (13 exact)
         data = pd.DataFrame([{
             "Expected_Ride_Duration": input_dict["Expected_Ride_Duration"],
